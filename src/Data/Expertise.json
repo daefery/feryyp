@@ -1,0 +1,21 @@
+{
+    "soft_skills": [
+        { "name": "Creativity", "value": 80 },
+        { "name": "Collaborative", "value": 90 },
+        { "name": "Leadership", "value": 80 },
+        { "name": "Responsibility", "value": 100 },
+        { "name": "Flexibility", "value": 95 }
+    ],
+    "hard_skills": [
+        { "name": "React", "value": 90 },
+        { "name": "HTML", "value": 95 },
+        { "name": "Javascript", "value": 95 },
+        { "name": "JQuery", "value": 85 },
+        { "name": "PHP", "value": 85 },
+        { "name": "CSS", "value": 87 },
+        { "name": "Laravel", "value": 80 },
+        { "name": "Django", "value": 80 },
+        { "name": "REST API", "value": 80 },
+        { "name": "UI/UX", "value": 80 }
+    ]
+}

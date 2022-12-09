@@ -1,0 +1,234 @@
+[
+    {
+        "id": 19,
+        "title": "Pokemon Apps",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "pokemon/1",
+        "images": ["pokemon/1"],
+        "project":{
+            "languages": "React JS, JEST, Graphql, emotion, Apollo"
+        }
+    },
+    {
+        "id": 1,
+        "title": "Suzuki Dealer Management System",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "sdms/1",
+        "images": ["sdms/1"],
+        "project":{
+            "languages": ".NET MVC, HTML, CSS, Javascript, Angular JS, JQuery"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Oneservice",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "one_service/1",
+        "images": ["one_service/1", "one_service/2", "one_service/3"],
+        "project":{
+            "languages": ".NET MVC, C#, HTML, CSS, Javascript, JQuery"
+        }
+    },
+    {
+        "id": 3,
+        "title": "ET Self Care & CSR",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "etak/1",
+        "images": ["etak/1", "etak/2", "etak/3"],
+        "project":{
+            "languages": "Angular JS, HTML, CSS, Javascript, JQuery"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Singapore International Commercial Court",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "sicc/1",
+        "images": ["sicc/1"],
+        "project":{
+            "languages": ".NET MVC"
+        }
+    },
+    {
+        "id": 5,
+        "title": "YTUI",
+        "description": "Wordpress Developer",
+        "category": "WEBSITE",
+        "thumbnail": "ytui/1",
+        "images": ["ytui/1"],
+        "project":{
+            "languages": "Wordpress, PHP, CSS, JQuery",
+            "url": "https://ytui.org"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Chatbot Incentives",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "win/1",
+        "images": ["win/1"],
+        "project":{
+            "languages": "HTML, JQuery, CSS",
+            "url": "https://win.solveeducation.org"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Solve Education!",
+        "description": "Wordpress Developer",
+        "category": "WEBSITE",
+        "thumbnail": "se/1",
+        "images": ["se/1"],
+        "project":{
+            "languages": "Wordpress, PHP, CSS, JQuery",
+            "url": "https://solveeducation.org"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Weekly Challenge",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "ulc/1",
+        "images": ["ulc/1"],
+        "project":{
+            "languages": "React JS, CSS",
+            "url": "https://challenge.dawnofcivilization.net"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Dawn of Civilization",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "doc/1",
+        "images": ["doc/1"],
+        "project":{
+            "languages": "Django, CSS, HTML, JQuery, Javascript",
+            "url": "https://dawnofcivilization.net"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Mendaki Challenge",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "mendaki/1",
+        "images": ["mendaki/1"],
+        "project":{
+            "languages": "HTML, CSS, JQuery, Javascript",
+            "url": "https://mendaki.dawnofcivilization.net"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Learnalytics",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "la/1",
+        "images": ["la/1"],
+        "project":{
+            "languages": "React JS, HTML, CSS, JQuery, Javascript, Laravel",
+            "url": "https://learnalytics.solveeducation.org"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Content+",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "content/1",
+        "images": ["content/1"],
+        "project":{
+            "languages": "React JS, CSS, Javascript",
+            "url": "https://content.solveeducation.org"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Localizy",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE",
+        "thumbnail": "localizy/1",
+        "images": ["localizy/1", "localizy/2", "localizy/3", "localizy/4"],
+        "project":{
+            "languages": "React JS, CSS, Javascript, Lumen/Laravel",
+            "url": "https://localizy.dawnofcivilization.net"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Ed the Bot",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "ed/1",
+        "images": ["ed/1", "ed/2", "ed/3"],
+        "project":{
+            "languages": "React JS, CSS, Javascript",
+            "url": "https://ed.solveeducation.org"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Solve Employment",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "semp/1",
+        "images": ["semp/1"],
+        "project":{
+            "languages": "React JS, CSS, HTML, Javascript",
+            "url": "https://solveemployment.com"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Self Portfolio",
+        "description": "Fullstack Developer",
+        "category": "WEBSITE, UX/UI",
+        "thumbnail": "dae/1",
+        "images": ["dae/1", "dae/2", "dae/3", "dae/4", "dae/5", "dae/6"],
+        "project":{
+            "languages": "React JS, CSS, HTML, Javascript",
+            "url": "https://fyp.natakraf.com"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Pariwisata Mockup",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "m_1/1",
+        "images": ["m_1/1"],
+        "project":{
+            "languages": "Figma"
+        }
+    },
+    {
+        "id": 17,
+        "title": "Natakraf Apps Mockup",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "nata/1",
+        "images": ["nata/1", "nata/2", "nata/3", "nata/4"],
+        "project":{
+            "languages": "Figma"
+        }
+    },
+    {
+        "id": 18,
+        "title": "Dompu Apps",
+        "description": "Frontend Developer & Designer",
+        "category": "UX/UI",
+        "thumbnail": "dompu/1",
+        "images": ["dompu/1"],
+        "project":{
+            "languages": "React Native, Figma"
+        }
+    }
+]

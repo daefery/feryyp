@@ -1,0 +1,48 @@
+{
+    "first_section": [
+        {
+            "id": 1,
+            "period": "JUN 2018 - PRESENT, <span><i class='map marker alternate icon'></i>Indonesia</span>",
+            "title": "Lead Frontend Developer / Solve Education!",
+            "description": "<ul><li>Supported game client by provide them endpoints.</li><li>Minimized web issue by implementing end-to-end testing with automation (Selenium).</li><li>Minimized error code by implementing unit test for backend and frontend including code coverage.</li><li>Minimized deployment issue by implementing CI/CD process.</li><li>Achieved clear project description and requirement by creating technical and project requirement project document.</li></ul>",
+            "type": "job"
+        },
+        {
+            "id": 2,
+            "period": "AUG 2016 - JUN 2018, <span><i class='map marker alternate icon'></i>Singapore & Indonesia</span>",
+            "title": "Backend Developer / Xtremax",
+            "description": "<ul><li>Maintained three projects.</li><li>Gained CRM Sitefinity certificate and other training by taking the exam of Sitefinity.</li><li>Achieved a project build with MVC .NET and Javascript.</li></ul>",
+            "type": "job"
+        },
+        {
+            "id": 3,
+            "period": "JUL 2015 - JUL 2017, <span><i class='map marker alternate icon'></i>Indonesia</span>",
+            "title": "Bina Nusantara University",
+            "description": "Bachelor of Information Systems\n<ul><li>Honors: (GPA: 3.51/4.0)</li><li>Final Project : Web App : Supply Chain Management System</li></ul>",
+            "type": "education"
+        }
+    ],
+    "second_section": [
+        {
+            "id": 4,
+            "period": "JUL 2015 - JUL 2017, <span><i class='map marker alternate icon'></i>Spain & Indonesia</span>",
+            "title": "Software Developer / Elephant Talk (Pareteum)",
+            "description": "<ul><li>Gained knowledge about telco system by joined the intense training.</li><li>Converted many business operation into micro services technically on code base.</li><li>Minimized issue reported by implementing clean code, integration test and unit testing.</li><li>Achieved two big web application projects implemented using Angular JS and C#.</li><li>Gained experience on C# microservice process.</li></ul>",
+            "type": "job"
+        },
+        {
+            "id": 5,
+            "period": "JAN 2014 - JAN 2015, <span><i class='map marker alternate icon'></i>Indonesia</span>",
+            "title": ".NET Developer / PT. Suzuki Indomobil Motor",
+            "description": "<ul><li>Finished .NET project and installed on every main branch office.</li><li>Application interface improved by implemented Angular JS framework.</li><li>Completed technical documentation of the project.</li></ul>",
+            "type": "job"
+        },
+        {
+            "id": 6,
+            "period": "SEP 2010 - SEP 2013, <span><i class='map marker alternate icon'></i>Indonesia</span>",
+            "title": "Telkom University",
+            "description": "Associate degree of Computer Engineering in Network Programming\n<ul><li>Honors: (GPA: 3.45/4.0)</li><li>Final Project : Web App : Social Media Traffic AND Weather Location</li></ul>",
+            "type": "education"
+        }
+    ]
+}
