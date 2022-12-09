@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/feryyp/static/css/main.a9ace364.chunk.css",
+    "main.js": "/feryyp/static/js/main.0b438a01.chunk.js",
+    "main.js.map": "/feryyp/static/js/main.0b438a01.chunk.js.map",
+    "runtime-main.js": "/feryyp/static/js/runtime-main.47b2e297.js",
+    "runtime-main.js.map": "/feryyp/static/js/runtime-main.47b2e297.js.map",
+    "static/css/2.f9ca2f71.chunk.css": "/feryyp/static/css/2.f9ca2f71.chunk.css",
+    "static/js/2.93232dee.chunk.js": "/feryyp/static/js/2.93232dee.chunk.js",
+    "static/js/2.93232dee.chunk.js.map": "/feryyp/static/js/2.93232dee.chunk.js.map",
+    "static/js/3.ace9b52a.chunk.js": "/feryyp/static/js/3.ace9b52a.chunk.js",
+    "static/js/3.ace9b52a.chunk.js.map": "/feryyp/static/js/3.ace9b52a.chunk.js.map",
+    "index.html": "/feryyp/index.html",
+    "static/css/2.f9ca2f71.chunk.css.map": "/feryyp/static/css/2.f9ca2f71.chunk.css.map",
+    "static/css/main.a9ace364.chunk.css.map": "/feryyp/static/css/main.a9ace364.chunk.css.map",
+    "static/js/2.93232dee.chunk.js.LICENSE.txt": "/feryyp/static/js/2.93232dee.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/feryyp/static/media/1.e5e5950b.png",
+    "static/media/2.png": "/feryyp/static/media/2.e6d9ac5f.png",
+    "static/media/3.png": "/feryyp/static/media/3.f7f400a9.png",
+    "static/media/4.png": "/feryyp/static/media/4.f376fd34.png",
+    "static/media/5.png": "/feryyp/static/media/5.f32210de.png",
+    "static/media/6.png": "/feryyp/static/media/6.01765456.png",
+    "static/media/Style.scss": "/feryyp/static/media/avatar.2b2759e4.png",
+    "static/media/avatar6.a45cf2ab.png": "/feryyp/static/media/avatar6.a45cf2ab.png",
+    "static/media/semantic.min.css": "/feryyp/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/i1.e5c9ba46.svg": "/feryyp/static/media/i1.e5c9ba46.svg",
+    "static/media/i2.1541cc22.svg": "/feryyp/static/media/i2.1541cc22.svg",
+    "static/media/i3.9bebd7f4.svg": "/feryyp/static/media/i3.9bebd7f4.svg",
+    "static/media/kominfo.4d91ed55.png": "/feryyp/static/media/kominfo.4d91ed55.png",
+    "static/media/line.0357c27f.svg": "/feryyp/static/media/line.0357c27f.svg",
+    "static/media/logo.0cda710f.svg": "/feryyp/static/media/logo.0cda710f.svg",
+    "static/media/sitefinity.e83fcb46.png": "/feryyp/static/media/sitefinity.e83fcb46.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47b2e297.js",
+    "static/css/2.f9ca2f71.chunk.css",
+    "static/js/2.93232dee.chunk.js",
+    "static/css/main.a9ace364.chunk.css",
+    "static/js/main.0b438a01.chunk.js"
+  ]
+}
