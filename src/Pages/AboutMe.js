@@ -2,6 +2,7 @@ import { CardGroup, Container, Grid, Segment, Card, Header, Divider, Button, Ico
 import { TitleSection } from "../Helper"
 import {useState, useEffect} from 'react'
 import aboutJSON from '../Data/About.json'
+import pdfFile from '../Assets/CV.pdf';
 
 const AboutMe = (props) =>{
     const [show, setShow] = useState(false)
@@ -55,7 +56,7 @@ const AboutMe = (props) =>{
                         <p className="descSection">Very positive person, hard working, totally committed to excellence and also someone who wants to continually improve and develop my skillset. i’m professional, i’m able to always follow rules and procedures. i would also describe myself as somebody who is fast learner.</p>
                         
                         <Divider hidden/>
-                        <Button primary className="holo" size="big" icon labelPosition="right" onClick={()=>window.open('https://mail.natakraf.com/dir/CV.pdf', '_blank')}>
+                        <Button primary className="holo" size="big" icon labelPosition="right" onClick={()=>window.open(pdfFile, '_blank')}>
                             DOWNLOAD CV <Icon name="download"/>
                         </Button>
                     </Grid.Column>

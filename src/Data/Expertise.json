@@ -8,6 +8,7 @@
     ],
     "hard_skills": [
         { "name": "React", "value": 90 },
+        { "name": "NextJS", "value": 90 },
         { "name": "HTML", "value": 95 },
         { "name": "Javascript", "value": 95 },
         { "name": "JQuery", "value": 85 },
@@ -16,6 +17,8 @@
         { "name": "Laravel", "value": 80 },
         { "name": "Django", "value": 80 },
         { "name": "REST API", "value": 80 },
-        { "name": "UI/UX", "value": 80 }
+        { "name": "UI/UX", "value": 80 },
+        { "name": "Flutter", "value": 80 },
+        { "name": "Testing", "value": 80 }
     ]
 }

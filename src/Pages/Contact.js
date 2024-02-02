@@ -59,7 +59,7 @@ const Contact = () =>{
         <Segment basic className="contactWrapper">
             <Container>
                 <Grid columns={'equal'}>
-                    <Grid.Column width={6}>
+                    <Grid.Column width={12}>
                         <Header as="h2" inverted>Looking Forward to Collaborate!</Header>
                         <p className="descSection">Contact me on any platform and i will happy to help you out.</p>
                         <Divider hidden/>
@@ -91,18 +91,6 @@ const Contact = () =>{
                             <Card>
                                 <div></div>
                                 <div className="iconContact">
-                                    <Icon name="twitter"/>
-                                </div>
-                                <Card.Content>
-                                    <Header as="h4">
-                                        <p>Twitter</p>
-                                        <a href="https://twitter.com/feryyp" target={'_blank'} rel='noreferrer'>@feryyp</a>
-                                    </Header>
-                                </Card.Content>
-                            </Card>
-                            <Card>
-                                <div></div>
-                                <div className="iconContact">
                                     <Icon name="linkedin"/>
                                 </div>
                                 <Card.Content>
@@ -114,8 +102,8 @@ const Contact = () =>{
                             </Card>
                         </CardGroup>
                     </Grid.Column>
-                    <Grid.Column width={1}></Grid.Column>
-                    <Grid.Column>
+                    {/* <Grid.Column width={1}></Grid.Column> */}
+                    {/* <Grid.Column>
                         <TitleSection text="Any Question?"/>
                         <Header as="h1" className="largeTitleSectionOther">
                             Drop Me A Line
@@ -137,7 +125,7 @@ const Contact = () =>{
                             <Form.Button content="SEND MESSAGE" primary icon="paper plane" onClick={sendMessage}
                             labelPosition="right" size="large" id="btnSendEmail" disabled={loading} loading={loading}/>
                         </Form>
-                    </Grid.Column>
+                    </Grid.Column> */}
                 </Grid>
             </Container>
         </Segment>

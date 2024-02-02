@@ -5,6 +5,7 @@ import i2 from '../Assets/Images/i2.svg'
 import i3 from '../Assets/Images/i3.svg'
 import avatar from '../Assets/Images/avatar6.png'
 import { useState, useEffect } from "react"
+import pdfFile from '../Assets/CV.pdf';
 
 const Banner = (props) =>{
     const [show, setShow] = useState(false)
@@ -43,7 +44,7 @@ const Banner = (props) =>{
                 <Divider hidden/>
                 
                 <div className="bannerGroupBtn">
-                <Button secondary size="big" icon labelPosition="right" id="btnDownloadCV" onClick={()=>window.open('https://mail.natakraf.com/dir/CV.pdf', '_blank')}>
+                <Button secondary size="big" icon labelPosition="right" id="btnDownloadCV" onClick={()=>window.open(pdfFile, '_blank')}>
                     DOWNLOAD CV <Icon name="download"/>
                 </Button>
                 <Button primary size="big" id="btnAboutMe" onClick={()=> window.scrollTo({
