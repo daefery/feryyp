@@ -1,59 +1,56 @@
 
-import { useState } from "react"
-import { toast } from "react-toastify"
-import { Container, Grid, Segment, Header, Form, CardGroup, Card, Divider, Icon, Message } from "semantic-ui-react"
-import { TitleSection } from "../Helper"
+import { Container, Grid, Segment, Header, CardGroup, Card, Divider, Icon } from "semantic-ui-react"
 
 const Contact = () =>{
-    const [loading, setLoading] = useState(false)
-    const [isMessageShow, setMessageShow] = useState(false)
-    const [message, setMessage] = useState('')
-    const [isError, setIsError] = useState(false)
+    // const [loading, setLoading] = useState(false)
+    // const [isMessageShow, setMessageShow] = useState(false)
+    // const [message, setMessage] = useState('')
+    // const [isError, setIsError] = useState(false)
 
-    const sendMessage = () =>{
-        var formEl = document.forms.contactForm;
-        var formData = new FormData(formEl);
-        let param = {
-            name: formData.get('name'),
-            email: formData.get('email'),
-            subject: formData.get('subject'),
-            phone: formData.get('phone'),
-            message: formData.get('message')
-        }
+    // const sendMessage = () =>{
+    //     var formEl = document.forms.contactForm;
+    //     var formData = new FormData(formEl);
+    //     let param = {
+    //         name: formData.get('name'),
+    //         email: formData.get('email'),
+    //         subject: formData.get('subject'),
+    //         phone: formData.get('phone'),
+    //         message: formData.get('message')
+    //     }
 
-        if(param.name === ''){
-            toast.warn('Please make sure form is completed before send the message!')
-            return false
-        }
+    //     if(param.name === ''){
+    //         toast.warn('Please make sure form is completed before send the message!')
+    //         return false
+    //     }
 
-        setLoading(true)
+    //     setLoading(true)
 
-        fetch('https://mail.natakraf.com/mail.php', {
-            method: 'post',
-            headers : {
-                'Content-type' : 'application/json'
-            },
-            body: JSON.stringify(param)
-        })
-        .then((res)=>{
-            return res.json()
-        })
-        .then((res)=>{
-            if(res.done){
-                document.forms.contactForm.reset()
-                setIsError(false)
-            }else{
-                setIsError(true)
-            }
+    //     fetch('https://mail.natakraf.com/mail.php', {
+    //         method: 'post',
+    //         headers : {
+    //             'Content-type' : 'application/json'
+    //         },
+    //         body: JSON.stringify(param)
+    //     })
+    //     .then((res)=>{
+    //         return res.json()
+    //     })
+    //     .then((res)=>{
+    //         if(res.done){
+    //             document.forms.contactForm.reset()
+    //             setIsError(false)
+    //         }else{
+    //             setIsError(true)
+    //         }
 
-            setMessage(res.message)
-            setMessageShow(true)
-            setLoading(false)
-        })
-        .catch((e)=>{
-            console.log(e)
-        })
-    }
+    //         setMessage(res.message)
+    //         setMessageShow(true)
+    //         setLoading(false)
+    //     })
+    //     .catch((e)=>{
+    //         console.log(e)
+    //     })
+    // }
 
     return(
         <Segment basic className="contactWrapper">
