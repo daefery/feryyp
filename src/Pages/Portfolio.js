@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Container, Segment, Header, Grid, Menu, Card, Image, Transition, Modal, TransitionablePortal, Icon } from "semantic-ui-react"
+import { Container, Segment, Header, Grid, Menu, Card, Image, Transition, Modal, TransitionablePortal, Icon, Dimmer, Loader } from "semantic-ui-react"
 import { TitleSection } from "../Helper"
 import PortfolioJSON from '../Data/Portfolio.json'
 import SlideShowComponent from "../Components/ImageSlide"
@@ -22,6 +22,9 @@ const Portfolio = () =>{
             case 2:
                 data = data.filter(x=>x.category.includes('UX'))
                 break;
+            case 3:
+                data = data.filter(x=>x.category.includes('MOBILE'))
+                break;
             default:
                 break;
         }
@@ -38,6 +41,10 @@ const Portfolio = () =>{
         setOpenModal(true)
     }
 
+    const generateUrl = (p) =>{
+        let urls = p.split(',')
+        return urls.map((v, k)=><li key={k}><a href={v} target="_blank" rel="noreferrer">{v}</a></li>)
+    }
     return(
         <Segment basic className="portfolioWrapper">
             <Container>
@@ -53,6 +60,7 @@ const Portfolio = () =>{
                             <Menu.Item active={activeTab === 0} link onClick={changeTab.bind(null, 0)}>All</Menu.Item>
                             <Menu.Item active={activeTab === 1} link onClick={changeTab.bind(null, 1)}>Website</Menu.Item>
                             <Menu.Item active={activeTab === 2} link onClick={changeTab.bind(null, 2)}>UX/UI</Menu.Item>
+                            <Menu.Item active={activeTab === 3} link onClick={changeTab.bind(null, 3)}>Mobile</Menu.Item>
                         </Menu>
                     </Grid.Column>
                 </Grid>
@@ -62,6 +70,9 @@ const Portfolio = () =>{
                         <Grid.Column key={k}>
                             <Card link onClick={selectPortfolio.bind(null, v)}>
                                 <div></div>
+                                <Dimmer active={v.loading}>
+                                    <Loader active={v.loading}/>
+                                </Dimmer>
                                 <Image src={require('./../Assets/Projects/'+v.thumbnail+'.png').default}/>
                                 <Segment textAlign="center" className="portfolioInfo">
                                     <Header as="h2" inverted>{v.title}</Header>
@@ -85,7 +96,7 @@ const Portfolio = () =>{
                                     <p>{selectedPorto.description}</p>
                                 </Header>
                                 <Header as="h5">
-                                    <p><Icon name="code"/>Languages</p>
+                                    <p><Icon name="code"/>Tech stack</p>
                                     {selectedPorto.project.languages}
                                 </Header>
 
@@ -96,7 +107,7 @@ const Portfolio = () =>{
 
                                 {selectedPorto.project.url !== undefined ? <Header as="h5">
                                     <p><Icon name="linkify"/>Source</p>
-                                    <a href={selectedPorto.project.url} target="_blank" rel="noreferrer">{selectedPorto.project.url}</a>
+                                    {generateUrl(selectedPorto.project.url)}
                                 </Header> : null}
                             </Grid.Column>
                             <Grid.Column>

@@ -7,7 +7,8 @@
         "thumbnail": "pokemon/1",
         "images": ["pokemon/1"],
         "project":{
-            "languages": "React JS, JEST, Graphql, emotion, Apollo"
+            "languages": "React JS, JEST, Graphql, emotion, Apollo",
+            "url": "https://pokemon-apps.netlify.app"
         }
     },
     {
@@ -62,8 +63,7 @@
         "thumbnail": "ytui/1",
         "images": ["ytui/1"],
         "project":{
-            "languages": "Wordpress, PHP, CSS, JQuery",
-            "url": "https://ytui.org"
+            "languages": "Wordpress, PHP, CSS, JQuery"
         }
     },
     {
@@ -85,6 +85,18 @@
         "category": "WEBSITE",
         "thumbnail": "se/1",
         "images": ["se/1"],
+        "project":{
+            "languages": "Wordpress, PHP, CSS, JQuery",
+            "url": "https://solveeducation.org"
+        }
+    },
+    {
+        "id": 77,
+        "title": "Solve Education! revamp",
+        "description": "Wordpress Developer",
+        "category": "WEBSITE",
+        "thumbnail": "senew/1",
+        "images": ["senew/1", "senew/2", "senew/3", "senew/4"],
         "project":{
             "languages": "Wordpress, PHP, CSS, JQuery",
             "url": "https://solveeducation.org"
@@ -189,13 +201,13 @@
     {
         "id": 15,
         "title": "Self Portfolio",
-        "description": "Fullstack Developer",
+        "description": "UX/UI Design, Frontend Developer",
         "category": "WEBSITE, UX/UI",
         "thumbnail": "dae/1",
         "images": ["dae/1", "dae/2", "dae/3", "dae/4", "dae/5", "dae/6"],
         "project":{
-            "languages": "React JS, CSS, HTML, Javascript",
-            "url": "https://fyp.natakraf.com"
+            "languages": "React JS, CSS, HTML, Javascript, Figma",
+            "url": "https://daefery.github.io/feryyp/, https://shorturl.at/ackBF"
         }
     },
     {
@@ -206,7 +218,8 @@
         "thumbnail": "m_1/1",
         "images": ["m_1/1"],
         "project":{
-            "languages": "Figma"
+            "languages": "Figma",
+            "url": "https://shorturl.at/syAE8"
         }
     },
     {
@@ -217,7 +230,8 @@
         "thumbnail": "nata/1",
         "images": ["nata/1", "nata/2", "nata/3", "nata/4"],
         "project":{
-            "languages": "Figma"
+            "languages": "Figma",
+            "url": "https://shorturl.at/hjJSU"
         }
     },
     {
@@ -229,6 +243,90 @@
         "images": ["dompu/1"],
         "project":{
             "languages": "React Native, Figma"
+        }
+    },
+    {
+        "id": 19,
+        "title": "Netflix redesign",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "netflix/1",
+        "images": ["netflix/1", "netflix/2", "netflix/3", "netflix/4", "netflix/5"],
+        "project":{
+            "languages": "Figma",
+            "url": "https://shorturl.at/agpM2"
+        }
+    },
+    {
+        "id": 20,
+        "title": "Apple redesign",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "apple/1",
+        "images": ["apple/1", "apple/2", "apple/3", "apple/4", "apple/5", "apple/6", "apple/7", "apple/8"],
+        "project":{
+            "languages": "Figma",
+            "url": "https://shorturl.at/azFT4"
+        }
+    },
+    {
+        "id": 21,
+        "title": "Ed the learning bot apps",
+        "description": "Frontend Developer",
+        "category": "WEBSITE",
+        "thumbnail": "edbot/1",
+        "images": ["edbot/1"],
+        "project":{
+            "languages": "Next JS, CSS, Typesctipt, JEST",
+            "url": "https://edbot.ai/"
+        }
+    },
+    {
+        "id": 22,
+        "title": "Lampalampa apps",
+        "description": "Fullstack Developer, Designer",
+        "category": "MOBILE, UX/UI",
+        "thumbnail": "lampalampa/1",
+        "images": ["lampalampa/1", "lampalampa/2"],
+        "project":{
+            "languages": "Flutter, Express, Node JS, Sequilize, Figma",
+            "url": "https://shorturl.at/vEVY0"
+        }
+    },
+    {
+        "id": 23,
+        "title": "Lampalampa website",
+        "description": "Frontend Developer & Designer",
+        "category": "WEBSITE, UX/UI",
+        "thumbnail": "lampaweb/1",
+        "images": ["lampaweb/1", "lampaweb/2"],
+        "project":{
+            "languages": "Next JS, CSS, Typesctipt, Figma",
+            "url": "https://shorturl.at/dnFKR, https://lampalampa.netlify.app/"
+        }
+    },
+    {
+        "id": 24,
+        "title": "Nike redesign",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "nike/1",
+        "images": ["nike/1", "nike/2", "nike/3", "nike/4", "nike/5", "nike/6"],
+        "project":{
+            "languages": "Figma",
+            "url": "https://shorturl.at/pqrJZ"
+        }
+    },
+    {
+        "id": 25,
+        "title": "Adidas redesign",
+        "description": "UX/UI Design",
+        "category": "UX/UI",
+        "thumbnail": "adidas/1",
+        "images": ["adidas/1", "adidas/2", "adidas/3", "adidas/4", "adidas/5"],
+        "project":{
+            "languages": "Figma",
+            "url": "https://shorturl.at/zOQY7"
         }
     }
 ]

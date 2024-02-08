@@ -2,6 +2,7 @@
 import { Container, Grid, Segment, Header, CardGroup, Card, Divider, Icon } from "semantic-ui-react"
 
 const Contact = () =>{
+    const txt = "Hey, i want to discuss about work!!!"
     // const [loading, setLoading] = useState(false)
     // const [isMessageShow, setMessageShow] = useState(false)
     // const [message, setMessage] = useState('')
@@ -64,12 +65,12 @@ const Contact = () =>{
                             <Card>
                                 <div></div>
                                 <div className="iconContact">
-                                    <Icon name="phone"/>
+                                    <Icon name="whatsapp"/>
                                 </div>
                                 <Card.Content>
                                     <Header as="h4">
                                         <p>Contact Me At:</p>
-                                        <a href="tel:+6281224641242">+6281224641242</a>
+                                        <a rel="noreferrer" target="_blank" href={"https://wa.me/+6281224641242?text="+txt}>+6281224641242</a>
                                     </Header>
                                 </Card.Content>
                             </Card>

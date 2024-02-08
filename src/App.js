@@ -120,7 +120,6 @@ function App() {
               <div className="socialMediaIcon">
                   <Icon name="linkedin" size="large" onClick={()=>window.open('https://www.linkedin.com/in/feryyp/', '_blank')} link circular/>
                   <Icon name="github"  size="large" onClick={()=>window.open('https://github.com/daefery', '_blank')} link circular/>
-                  <Icon name="twitter" size="large" onClick={()=>window.open('https://twitter.com/feryyp', '_blank')} link circular/>
               </div>
             </Container>
         </Sidebar>

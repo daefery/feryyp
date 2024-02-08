@@ -16,7 +16,7 @@ const Header = (props) =>{
                 <Menu.Menu position="right">
                     <Menu.Item link active={props.activeIndex === 0} onClick={clickMenu.bind(null, 'banner')}>HOME</Menu.Item>
                     <Menu.Item link active={props.activeIndex === 1} onClick={clickMenu.bind(null, 'aboutMe')}>ABOUT</Menu.Item>
-                    <Menu.Item link active={props.activeIndex === 2} onClick={clickMenu.bind(null, 'portfolio')}>WORKS</Menu.Item>
+                    <Menu.Item link active={props.activeIndex === 2} onClick={clickMenu.bind(null, 'portfolio')}>PORTFOLIO</Menu.Item>
                     <Menu.Item link active={props.activeIndex === 3} onClick={clickMenu.bind(null, 'journey')}>JOURNEY</Menu.Item>
                     <Menu.Item link active={props.activeIndex === 4} onClick={clickMenu.bind(null, 'contact')}>CONTACT</Menu.Item>
                 </Menu.Menu>
