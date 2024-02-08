@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/feryyp/static/css/main.5afb74a6.chunk.css",
-    "main.js": "/feryyp/static/js/main.ca109b65.chunk.js",
-    "main.js.map": "/feryyp/static/js/main.ca109b65.chunk.js.map",
+    "main.js": "/feryyp/static/js/main.fca0321d.chunk.js",
+    "main.js.map": "/feryyp/static/js/main.fca0321d.chunk.js.map",
     "runtime-main.js": "/feryyp/static/js/runtime-main.81d846ba.js",
     "runtime-main.js.map": "/feryyp/static/js/runtime-main.81d846ba.js.map",
     "static/css/2.0f0a6313.chunk.css": "/feryyp/static/css/2.0f0a6313.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.0f0a6313.chunk.css",
     "static/js/2.36083de5.chunk.js",
     "static/css/main.5afb74a6.chunk.css",
-    "static/js/main.ca109b65.chunk.js"
+    "static/js/main.fca0321d.chunk.js"
   ]
 }
