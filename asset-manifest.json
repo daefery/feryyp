@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/feryyp/static/css/main.5afb74a6.chunk.css",
-    "main.js": "/feryyp/static/js/main.df7c9428.chunk.js",
-    "main.js.map": "/feryyp/static/js/main.df7c9428.chunk.js.map",
-    "runtime-main.js": "/feryyp/static/js/runtime-main.f1d25ccd.js",
-    "runtime-main.js.map": "/feryyp/static/js/runtime-main.f1d25ccd.js.map",
+    "main.js": "/feryyp/static/js/main.ca109b65.chunk.js",
+    "main.js.map": "/feryyp/static/js/main.ca109b65.chunk.js.map",
+    "runtime-main.js": "/feryyp/static/js/runtime-main.81d846ba.js",
+    "runtime-main.js.map": "/feryyp/static/js/runtime-main.81d846ba.js.map",
     "static/css/2.0f0a6313.chunk.css": "/feryyp/static/css/2.0f0a6313.chunk.css",
-    "static/js/2.30cefbf2.chunk.js": "/feryyp/static/js/2.30cefbf2.chunk.js",
-    "static/js/2.30cefbf2.chunk.js.map": "/feryyp/static/js/2.30cefbf2.chunk.js.map",
-    "static/js/3.dc2be340.chunk.js": "/feryyp/static/js/3.dc2be340.chunk.js",
-    "static/js/3.dc2be340.chunk.js.map": "/feryyp/static/js/3.dc2be340.chunk.js.map",
+    "static/js/2.36083de5.chunk.js": "/feryyp/static/js/2.36083de5.chunk.js",
+    "static/js/2.36083de5.chunk.js.map": "/feryyp/static/js/2.36083de5.chunk.js.map",
+    "static/js/3.5083a35f.chunk.js": "/feryyp/static/js/3.5083a35f.chunk.js",
+    "static/js/3.5083a35f.chunk.js.map": "/feryyp/static/js/3.5083a35f.chunk.js.map",
     "index.html": "/feryyp/index.html",
     "static/css/2.0f0a6313.chunk.css.map": "/feryyp/static/css/2.0f0a6313.chunk.css.map",
     "static/css/main.5afb74a6.chunk.css.map": "/feryyp/static/css/main.5afb74a6.chunk.css.map",
-    "static/js/2.30cefbf2.chunk.js.LICENSE.txt": "/feryyp/static/js/2.30cefbf2.chunk.js.LICENSE.txt",
+    "static/js/2.36083de5.chunk.js.LICENSE.txt": "/feryyp/static/js/2.36083de5.chunk.js.LICENSE.txt",
     "static/media/1.png": "/feryyp/static/media/1.e5e5950b.png",
     "static/media/2.png": "/feryyp/static/media/2.e6d9ac5f.png",
-    "static/media/3.png": "/feryyp/static/media/3.f7f400a9.png",
+    "static/media/3.png": "/feryyp/static/media/3.fc5bb079.png",
     "static/media/4.png": "/feryyp/static/media/4.f376fd34.png",
     "static/media/5.png": "/feryyp/static/media/5.f32210de.png",
-    "static/media/6.png": "/feryyp/static/media/6.01765456.png",
+    "static/media/6.png": "/feryyp/static/media/6.eb39ec43.png",
+    "static/media/7.png": "/feryyp/static/media/7.bdc9e55b.png",
+    "static/media/8.png": "/feryyp/static/media/8.e54bd888.png",
     "static/media/CV.3dba098f.pdf": "/feryyp/static/media/CV.3dba098f.pdf",
     "static/media/Style.scss": "/feryyp/static/media/avatar.2b2759e4.png",
     "static/media/avatar6.a45cf2ab.png": "/feryyp/static/media/avatar6.a45cf2ab.png",
@@ -33,10 +35,10 @@
     "static/media/sitefinity.e83fcb46.png": "/feryyp/static/media/sitefinity.e83fcb46.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1d25ccd.js",
+    "static/js/runtime-main.81d846ba.js",
     "static/css/2.0f0a6313.chunk.css",
-    "static/js/2.30cefbf2.chunk.js",
+    "static/js/2.36083de5.chunk.js",
     "static/css/main.5afb74a6.chunk.css",
-    "static/js/main.df7c9428.chunk.js"
+    "static/js/main.ca109b65.chunk.js"
   ]
 }
